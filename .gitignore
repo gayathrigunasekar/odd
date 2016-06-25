@@ -4,30 +4,17 @@
 *.obj
 *.elf
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{int a;
+printf("enter a number");
+scanf("%d",&a);
+if(a%2==0)
+{
+printf("number is even");
+}
+else
+{ printf(" number is odd ");}
+getch();
+}
